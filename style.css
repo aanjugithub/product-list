@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+
+.row{
+    width: 80%;
+    min-height: 450px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+*{
+    margin:0
+}
+
+
+
+.col{
+    width:28%;
+    min-height: 400px;
+    background-color: white;
+    border: solid 1px black;
+}
+.card-header{
+    background-color: grey;
+    color:white;
+    padding: 20px;
+}
+
+.card-image img{
+    height:200px;
+    width: 100%;
+}
+.card-title{
+    text-align: center;
+    padding: 18px;
+}
+.card-body ul{
+    padding:20px;
+    list-style: none;
+    line-height: 30px;
+    margin-left: 10px;
+
+
+
+}
+button{
+    margin-left: 70px;
+    margin-bottom: 20px;
+    background-color: red;
+    color: aliceblue;
+    border:none;
+    height: 28px;
+}
+
+.card-body ul li i{
+    color: red;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+    
+}
+.car-footer :hover{
+    transform: skew(-20deg) ;
+    
+    /* above 0 scale value ++ and below 0 --
+    
+        transform: rotate(10deg) --to rotate ;
+        transform:scale(1.5) -- zoom in /out;
+
+    */
+}
